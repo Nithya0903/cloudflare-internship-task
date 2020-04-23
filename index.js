@@ -1,7 +1,8 @@
 /*
 implemented by: Nithya Manoj
 contact info  : nithyamanoj.ms@gmail.com
-Created as a part of cloudflare workers internship challege
+Created as a part of cloudflare workers internship challenge
+All the requirements and bonustasks except publishing to a domain is completed
 */
 addEventListener('fetch', event => {
     event.respondWith(handleRequest(event.request))
