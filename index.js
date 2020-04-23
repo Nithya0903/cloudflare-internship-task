@@ -3,6 +3,7 @@ implemented by: Nithya Manoj
 contact info  : nithyamanoj.ms@gmail.com
 Created as a part of cloudflare workers internship challenge
 All the requirements and bonustasks except publishing to a domain is completed
+it is deployed at: https://task.worker01.workers.dev
 */
 addEventListener('fetch', event => {
     event.respondWith(handleRequest(event.request))
